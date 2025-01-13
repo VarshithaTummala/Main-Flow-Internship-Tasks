@@ -1,0 +1,117 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Navigation Header */
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+    padding: 1.5rem 1rem; /* Increased padding for a larger header */
+    font-family: 'Poppins', sans-serif; /* Font for header */
+    font-weight: bold;
+    background: transparent; /* Transparent header background */
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end; /* Align links to the right */
+    align-items: center;
+    width: 100%;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.2); /* Translucent background */
+    backdrop-filter: blur(10px); /* Glass effect */
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s;
+    padding: 0.5rem 1rem; /* Uniform padding for consistent width */
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem; /* Space between text and icon */
+}
+
+.nav a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://c4.wallpaperflare.com/wallpaper/672/503/735/fast-food-junk-food-food-hamburger-wallpaper-preview.jpg') no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.hero .title {
+    position: absolute;
+    left: 2rem; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.main-title {
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif; /* Custom font */
+    font-weight: bold;
+    margin: 0;
+}
+
+.sub-title {
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    margin-top: 0.5rem;
+}
+
+.hero-description {
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    margin-top: 1rem;
+    max-width: 400px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* Footer */
+.footer {
+    background: #002b5c;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footer p {
+    margin: 0;
+}
