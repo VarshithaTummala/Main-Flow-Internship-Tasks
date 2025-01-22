@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact and Feedback</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out or leave your feedback below!</p>
+    </header>
+
+    <main>
+        <section class="personal-info">
+            <h2>My Information</h2>
+            <p><strong>Name:</strong> John Andrew</p>
+            <p><strong>Email:</strong>andrewjohn2605@gmail.com</p>
+            <p><strong>Phone:</strong> +1(123)4567890</p>
+            <p><strong>Address:</strong> 95-16/A,Duct street,Los Angeles</p>
+        </section>
+
+        <section class="feedback-form">
+            <h2>Feedback</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Your Feedback:</label>
+                <textarea id="message" name="message" placeholder="Write your feedback here..." rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 [John Andrew]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
